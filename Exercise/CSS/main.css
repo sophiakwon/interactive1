@@ -1,0 +1,13 @@
+h1 {
+	font-size: 30px;
+	color: red;
+}
+
+#background {
+	position: absolute;
+}
+
+#tokyo img {
+	position: absolute;
+	top: -500px;
+}

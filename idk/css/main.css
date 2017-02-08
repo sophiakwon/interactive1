@@ -1,0 +1,13 @@
+h1 {
+	font-size: 30px;
+	color: red;
+}
+
+#background {
+	position: absolute;
+}
+#tokyo {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 300px;
+}
