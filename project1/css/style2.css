@@ -35,7 +35,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: -170px;
 	margin-left:1400px;
-	color: #6A446A;
+	color: #gray;
 
 }
 #a1{
@@ -45,9 +45,19 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 250px;
 	margin-left:1400px;
-	color: #926C92;
+	color: gray;
 	opacity: 1;
 }
+
+#omg1212 {
+  position: relative;
+  margin-top: -800px;
+  margin-left: 380px;
+  transform: rotate(0deg);
+
+}
+
+
 #ap1{
 	position: relative;
 	margin-top: -220px;
@@ -62,9 +72,9 @@ a:active {
 	font-family: helvetica;
 	font-size: 37px;
 	transform: rotate(90deg);
-	margin-top:-1000px;
+	margin-top:-1400px;
 	margin-left:900px;
-	color: #BA94BA;
+	color: #gray;
 	opacity: 1;}
 #tp1{
  	position: relative;
@@ -88,9 +98,9 @@ a:active {
 	font-family: helvetica;
 	font-size: 37px;
 	transform: rotate(90deg);
-	margin-top: 500px;
+	margin-top: 130px;
 	margin-left:900px;
-	color: #C49EC4;
+	color: #gray;
 	opacity: 1;
 }
 
@@ -109,7 +119,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 120px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;
 }
 
@@ -119,7 +129,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;
 }
 
@@ -131,12 +141,12 @@ a:active {
 	visibility: hidden
 }
 
-#goo12{
-
-	margin-top: -900px;
-	left:420px;
+#ig12{
+	position: fixed;
+	margin-top: 10px;
+	margin-left:500px;
 	transform: rotate(0deg);
-  position: fixed;
+	visibility: visible;
 }
 
 #cp
@@ -155,7 +165,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;
 }
 
@@ -167,7 +177,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;
 }
 
@@ -196,7 +206,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;	
 }
 #lav
@@ -207,7 +217,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: gray;
 	opacity: 1;	
 }
 
@@ -219,7 +229,7 @@ a:active {
 	transform: rotate(90deg);
 	margin-top: 100px;
 	margin-left:900px;
-	color: #7E587E;
+	color: #gray;
 	opacity: 1;	
 }
 
@@ -240,15 +250,15 @@ a:active {
 	font-size: 37px;
 position:relative;
 font-family: helvetica;
-visibility:hidden;
-color: #6A446A;
+/*visibility:hidden;*/
+color: gray;
 }
 
-#pw:hover .m {
+/*#pw:hover .m {
 
 visibility:visible;
 }
-
+*/
 
 
 .hi2 {
@@ -267,14 +277,17 @@ visibility:visible;
 	height: 1800px;
 	font-size: 37px;
 position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #7E587E;
+	color: gray;
 }
 
-#a1:hover .c {
-visibility:visible;
+
 }
+
+/*#a1:hover .c {
+visibility:visible;
+}*/
 
 .hi3 {
   opacity: 0;
@@ -285,20 +298,20 @@ visibility:visible;
 }
 
 #t1 .uk{
-	margin-top:-2620px;
+	margin-top:-1820px;
 	top:550px;
 	width: 240px;
 	height: 1800px;
 	font-size: 36px;
 position:relative;
-	visibility: hidden;
+/*	visibility: hidden;*/
 	font-family: helvetica;
-	color: #BA94BA;
+	color: gray;
 }
 
-#t1:hover .uk {
+/*#t1:hover .uk {
 visibility:visible;
-}
+}*/
 
 .hi4 {
   opacity: 0;
@@ -315,14 +328,14 @@ visibility:visible;
 	height: 1800px;
 	font-size: 36px;
 position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 }
-
+/*
 #l1:hover .f{
 visibility:visible;
-}
+}*/
 
 .hi5 {
   opacity: 0;
@@ -339,14 +352,14 @@ visibility:visible;
 	height: 1800px;
 	font-size: 36px;
 position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 }
 
-#a2:hover .afr{
+/*#a2:hover .afr{
 visibility:visible;
-}
+}*/
 .hi6 {
   opacity: 0;
 }
@@ -363,14 +376,14 @@ visibility:visible;
 	font-size: 36px;
 	
 	position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 }
 
-#m2:hover .rush{
+/*#m2:hover .rush{
 visibility:visible;
-}
+}*/
 
 .hi7 {
   opacity: 0;
@@ -388,14 +401,14 @@ visibility:visible;
 	font-size: 36px;
 	
 	position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 	}
 
-#ch1:hover .in{
+/*#ch1:hover .in{
 visibility:visible;
-}
+}*/
 
 .hi8 {
   opacity: 0;
@@ -413,15 +426,15 @@ visibility:visible;
 	font-size: 36px;
 	
 	position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 	
 }
 
-#bg:hover .beij{
+/*#bg:hover .beij{
 visibility:visible;
-}
+}*/
 
 .hi9 {
   opacity: 0;
@@ -438,15 +451,15 @@ visibility:visible;
 	height: 1800px;
 	font-size: 36px;
 	position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 	
 }
 
-#mcw:hover .kor{
+/*#mcw:hover .kor{
 visibility:visible;
-}
+}*/
 
 .hi10 {
   opacity: 0;
@@ -463,15 +476,15 @@ visibility:visible;
 	height: 1800px;
 	font-size: 36px;
 	position:relative;
-	visibility: hidden;
+/*	visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 	
 }
 
-#lav:hover .aust{
+/*#lav:hover .aust{
 visibility:visible;
-}
+}*/
 
 .hi11 {
   opacity: 0;
@@ -488,16 +501,16 @@ visibility:visible;
 	height: 1800px;
 	font-size: 36px;
 	position:relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	font-family: helvetica;
-	color: #C49EC4;
+	color: gray;
 	
 }
 
-#new:hover .zeal{
+/*#new:hover .zeal{
 visibility:visible;
 }
-
+*/
 
 
 
@@ -512,7 +525,7 @@ visibility:visible;
 	color: purple	;
 	transform: rotate(0deg);
   width:700px;
-  margin-top:-5405px;
+  margin-top:-5835px;
   margin-left: 500px;
   visibility: visible;
   }
@@ -714,7 +727,7 @@ color: purple	;
 	transform: rotate(0deg);
   width:700px;
   visibility: visible;
-  margin-top:60px;
+  margin-top:600px;
   margin-left: 500px;
   position:relative;
   }
@@ -812,7 +825,7 @@ color: purple	;
 	transform: rotate(0deg);
   width:700px;
   visibility: visible;
-  margin-top:180px;
+  margin-top:90px;
   margin-left: 500px;
   position:relative;
   }
