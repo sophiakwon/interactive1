@@ -1,0 +1,585 @@
+body{
+	background-color:#FAEE08;
+
+   cursor: url(img/emo1.png), auto;
+}
+
+	/*image placements*/
+#k2{
+	margin-top: 45px;
+}
+#k1{
+	margin-top:-10px;
+}
+
+#phone {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.30);
+
+	/* apply animations to elements */
+
+	animation-name: fadein;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 0;
+/*움직임옆*/
+}
+#kkoimg1{
+	margin-left: 16.3%;
+	visibility:visible;
+	margin-top: 150px;
+
+}
+
+#kkoimg3{
+	margin-left: 16.3%;
+	visibility:visible;
+	margin-top: 150px;
+}
+
+#kkoimg4{
+	margin-left: 16.3%;
+	margin-top:150px;
+	opacity:1;
+	
+}
+
+#kkoimg5{
+	margin-left: 30.8%;
+	visibility:visible;
+	margin-top: 0px;
+}
+
+#kkoimg6{
+	margin-left:0%;
+	margin-top:150px;
+	opacity:1;
+	
+}
+
+
+
+#kkoimg8{
+	margin-left: 29.3%;
+	margin-top:150px;
+	opacity:1;
+	
+}
+
+#kkoimg9{
+	margin-left: 29.3%;
+	visibility:visible;
+	margin-top: 150px;
+}
+
+
+										/*idk*/
+#kkoimg2 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:200px;
+	margin-left: 470px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+#kkoimg1 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:200px;
+	margin-left: 0px;
+	position: relative;
+	transition: all 500ms ease;
+}
+#kkoimg6 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:0px;
+	margin-left: 0px;
+	position: relative;
+	transition: all 500ms ease;
+}
+#kkoimg7 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:300px;
+	margin-left: 225px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+#kkoimg8 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:90px;
+	margin-left:400px;
+	position: relative;
+	transition: all 500ms ease;
+	}
+
+	#kkoimg9 {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-top:-300px;
+	margin-left:1100px;
+	position: relative;
+	transition: all 500ms ease;
+	}
+
+
+										/*info?*/
+ .info {
+	position: absolute;
+	top: 350px;
+	font-size: 13px;
+	line-height: 13px;
+	color: green;
+	font-weight: normal;
+	font-family: helvetica;
+	width: 240px;
+	left:400px;
+	text-align: left;
+	opacity: 0;
+	transition: all 900ms ease;}
+
+
+
+									/*emoticons*/
+	.emoticon {
+	position: absolute;
+	top: -170px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:170px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+	.hand {
+	position: absolute;
+	top: 2015px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:810px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+	.emoticon2 {
+	position: absolute;
+	top: 1630px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:670px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+.girlidea {
+	position: absolute;
+	top: -130px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:170px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+.boyidea {
+	position: absolute;
+	top:-130px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:170px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+									/*arrows*/
+	.arrow {
+	position: absolute;
+	top: 120px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:-20px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+	.arrow2 {
+	position: absolute;
+	top: 240px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:1110px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+	.arrow1 {
+	position: absolute;
+	top: 200px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:200px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+	.arrow4 {
+	position: absolute;
+	top: 240px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:2010px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+.arrow5 {
+	position: absolute;
+	top: 200px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:1110px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+.arrow6 {
+	position: absolute;
+	top: 178px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:180px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+.arrow66 {
+	position: absolute;
+	top: 90px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:180px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+.arrow44 {
+	position: absolute;
+	top: 240px;
+	font-size: 13px;
+	line-height: 16px;
+	color: green;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left:0px;
+	text-align: right;
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+
+}
+.arrow1{
+	position:absolute;
+	left:15px;
+	top:200px;
+}
+.arrow4{
+	position:absolute;
+	left:895px;
+	top:150px;
+}
+.arrow5{
+	position:absolute;
+	left:950px;
+	top:240px;
+}
+
+#k7{position:absolute;
+	left: 
+	top:500px;
+}
+
+
+
+
+									
+
+									/*hover?*/
+
+
+div:hover > .info {
+	opacity: 1;
+	transform: translateX(50px);
+}
+
+div:hover > .arrow66 {
+	opacity: 1;
+	transform: translateX(20px);
+}
+div:hover > .arrow44 {
+	opacity: 1;
+	transform: translateX(20px);
+}
+div:hover > .emoticon {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+
+div:hover > .girlidea {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+
+div:hover > .boyidea {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+
+
+div:hover > .arrow {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+div:hover > .arrow2 {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+div:hover > .hand {
+	opacity: 1;
+	transform: translateY(30px);
+}
+
+div:hover > .emoticon2 {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+div:hover > .arrow1 {
+	opacity: 1;
+	transform: translateY(30px);
+}
+
+div:hover > .arrow4 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+div:hover > .arrow5 {
+	opacity: 1;
+	transform: translateY(20px);
+}
+div:hover > .arrow6 {
+	opacity: 1;
+	transform: translateY(22px);
+}
+
+
+				/*idk*/
+
+
+#kkoimg2 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	
+
+	/* apply animations to elements */
+
+	animation-name: fadein;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 0;
+
+
+}
+#kkoimg1 {
+	width: 1800px;
+	margin: 200px auto 0px;
+	height: calc(100vh - 150px);
+}
+
+#kkoimg1 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.30);
+
+	/* apply animations to elements */
+
+	animation-name: fadein;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 0;
+
+}
+
+#kkoimg6 {
+	width: 1800px;
+	margin: 200px auto 0px;
+	height: calc(100vh - 150px);
+}
+
+#kkoimg6 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.30);
+
+	/* apply animations to elements */
+
+	animation-name: fadein;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 0;
+
+}
+
+#kkoimg7 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.30);
+
+	/* apply animations to elements */
+
+	animation-name: fadein;
+	animation-duration: 9s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	opacity: 0;
+}
+
+
+/* delay animations */
+
+#k1 {
+	animation-delay: 500ms;	
+}
+
+#k2 {
+	animation-delay: 750ms;	
+}
+
+#k3 {
+	animation-delay: 1000ms;	
+}
+
+#arrow2 {
+	animation-delay: 1000ms;
+}
+
+#k4 {
+	animation-delay: 500ms;	
+	margin-left: 200px;
+}
+
+#k5 {
+	animation-delay: 750ms;	
+	margin-left: -100px;
+}
+
+#k6 {
+	animation-delay: 1000ms;
+	margin-left: 300px;	
+}
+
+#k7 {
+	animation-delay: 1000ms;
+	margin-left: 200px;
+}
+
+/*뭐지*/
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
+
+

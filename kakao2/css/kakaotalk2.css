@@ -1,0 +1,154 @@
+
+body {
+	text-align: left;
+	font-family: helvetica;
+	background-color: gray;
+}
+
+/*#어 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.6);
+
+	
+
+	animation-name: zoomOutRight;
+	animation-duration:4s;
+	 animation-fill-mode: forwards;
+	
+	opacity: 1;
+
+
+}*/
+#ㅇㅋ{top:-1210px;
+	position:relative;
+	left:1530px;
+	box-shadow:  -20px 50px 50px 0 rgba(0, 0, 0, 0.2), 0 50px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 1;}
+
+
+	#ㅇㅇㅋ:hover {
+	opacity: 1;
+	transform: translateX(-170px);	}
+
+#좋{top:-20px;
+	left:500px;
+	width:1200px;
+	position:absolute;
+opacity: 1;
+box-shadow:  -20px 50px 50px 0 rgba(0, 0, 0, 0.2), 0 50px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#hi{width:300px;
+	left:300px;
+	margin:auto;
+position:relative;}
+
+
+
+/* main structure */
+
+#container {
+	padding: 100px 0px;
+	width: 700px;
+	margin: auto;
+}
+#record1{width:210px;
+		top:140px;
+		position: relative;
+		left:400px;
+		opacity: 
+	}
+
+	#record1:hover {
+	opacity: 1;
+	transform: translateX(-170px);		
+}
+
+	#iphone2 {width:210px;
+		top:190px;
+		position: relative;
+		left:390px;
+	}
+
+	#iphone2:hover {
+	opacity: 1;
+	transform: translateX(-170px);		
+}
+
+
+	#iphone3 {width:210px;
+		top:450px;
+		position: relative;
+		left:180px;
+	}
+
+	#iphone3:hover {
+	opacity: 1;
+	transform: translateX(-170px);		
+}
+
+	#iphone4 {width:210px;
+		top:510px;
+		position: relative;
+		left:-30px;
+	}
+
+
+/*-----------------------------------------------*/
+
+
+
+
+
+#ben{width:100px;
+	position: relative;
+	left:70px;
+	top:-390px; }
+
+
+
+}
+div:hover > #k2 {
+	opacity: 1;
+}
+
+#ben img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.6);
+
+	/* apply animations to elements */
+
+	animation-name: fadeIn;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	/*animation-fill-mode: forwards;*/
+
+	/* set opacity to 0 by default */
+	opacity: 1;
+
+}
+/* keyframe animation for transition at the top of the page */
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateX(20px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}

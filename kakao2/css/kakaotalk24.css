@@ -1,0 +1,98 @@
+
+
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-family: helvetica;
+	background-color: yellow;
+	color: black;
+}
+
+
+
+/* main structure */
+
+#container {
+	padding: 100px 0px;
+	width: 700px;
+	margin: auto;
+}
+#iphone {width:800px;
+		position: relative;
+		margin-left:5px auto;
+	}
+
+#k1{width:580px;
+	position: relative;
+	left:200px;
+	top:-695px; }
+
+#wave{
+	width:340px;
+	position: relative;
+	top:-650px;
+	left:230px;
+	opacity:1;
+}
+
+#line{width:349px;
+	position: relative;
+	left:-118px;
+	top:-435px;
+
+}
+
+#plus{width:56.9px;
+	position: relative;
+	left:229px;
+	top:-590px;
+	opacity: 1;
+}
+
+/*#diagram img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+
+	/* apply animations to elements */
+
+	animation-name: fadeInRight;
+	animation-duration:4s;
+	animation-iteration-count:;
+	animation-fill-mode: forwards;
+
+	/* set opacity to 0 by default */
+	opacity: 0;*/
+
+
+}
+
+/* animations */
+
+/* switch the headline and image's place */
+
+
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateX(20px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
