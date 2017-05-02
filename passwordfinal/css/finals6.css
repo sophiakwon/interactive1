@@ -1,0 +1,142 @@
+body{	background-color: black}
+
+#mag{ top:30px;
+	left:800px;
+	position: absolute; 
+	z-index:1;
+}
+#wordsearch{
+	top:580px;
+	left:820px;
+	position:absolute;
+	z-index:2;
+	pointer-events: none
+}
+
+	#title{
+	top:40px;
+	left:1010px;
+	position:absolute;
+	z-index:2;
+	pointer-events: none
+}
+#line1{
+	top:614px;
+	left:930px;
+	position:absolute;
+	z-index:1
+	
+}
+
+#what{transform:rotate(deg);}
+
+#background{top:-130px;
+      position:absolute;
+        transform: scale(-1);
+        
+}
+
+
+#일{top:580px;
+	left:230px;
+	position:absolute;}
+
+#eel{top:200px;
+	left:0px;
+	position:absolute;
+}
+
+#이{top:630px;
+	left:230px;
+	position:absolute;}
+
+#삼{top:680px;
+	left:230px;
+	position:absolute;}
+
+#사{top:730px;
+	left:230px;
+	position:absolute;}
+
+#오{top:780px;
+	left:230px;
+	position:absolute;}
+
+#육{top:820px;
+	left:230px;
+	position:absolute;}
+
+
+
+
+#칠{top:580px;
+	left:400px;
+	position:absolute;}
+
+#팔{top:630px;
+	left:400px;
+	position:absolute;}
+
+#구{top:680px;
+	left:400px;
+	position:absolute;}
+
+#십{top:730px;
+	left:400px;
+	position:absolute;}
+
+#십일{top:780px;
+	left:400px;
+	position:absolute;}
+
+#십이{top:820px;
+	left:400px;
+	position:absolute;}
+
+
+
+
+.info {
+	position: absolute;
+	top: -500px;
+	font-size: 13px;
+	line-height: 16px;
+	color: white;
+	font-weight: normal;
+	font-family: courier;
+	width: 0px;
+	left: -250px;
+	text-align: right;
+	transform: rotate(30deg);
+
+	opacity: 0;
+	transition: all 4000ms ease;
+}
+
+div:hover > .info {
+	opacity: 1;
+	transform: translateY(-40px);		
+}
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}

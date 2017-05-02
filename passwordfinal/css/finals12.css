@@ -1,0 +1,71 @@
+body{	background-color: black}
+
+#mag{ top:30px;
+	left:800px;
+	position: absolute; 
+	z-index:1;
+}
+
+#line1{
+	top:520px;
+	left:940px;
+	position:absolute;
+	z-index:1
+	
+}
+
+#background{top:25px;
+      position:absolute;
+        transform: scale(-1);
+        
+}
+
+
+
+
+
+
+.info {
+	position: absolute;
+	top: -350px;
+	font-size: 13px;
+	line-height: 16px;
+	color: white;
+	font-weight: normal;
+	font-family: courier;
+	width: 0px;
+	left: -250px;
+	text-align: right;
+	transform: rotate(330deg);
+
+	opacity: 0;
+	transition: all 7000ms ease;
+}
+
+div:hover > .info {
+	opacity: 1;
+	transform: translateY(-40px);		
+}
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
